@@ -2,7 +2,10 @@
 Unit tests for imports library
 """
 
-import imports
+from imports import init
 
 
 class test_imports:
+
+    def test_init(self):
+        assert init()
